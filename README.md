@@ -1,3 +1,21 @@
+# TechSoc Site Development
+
+Jekyll is essentially a parsing engine, not a CMS. but it's better. Read the "Jekyll Introduction" on the home page, you'll find it under "Sample Posts" when you're running the site locally
+
+To edit **styles**: got to `assets/themes/techsoc/css/style.css`, NOT `_site/assets.../style.css`, this is where the site is stored after parsing.
+
+To edit **HTML**: it's `_includes/themes/techsoc/default.html`. Editing here changes all pages, thank da Lord.
+
+
+## Installing Jekyll
+
+Make sure you only have one version of ruby. You also need [RVM](https://rvm.io/rvm/install) and [Rubygems](https://rubygems.org/pages/download).
+
+Use Rubygems to install jekyll: `gem install jekyll`, you can do this in your home directory.
+
+cd to your GitHub folder, and go `jekyll serve` to see it hosted locally. Yes, you can change the code at the same time.
+
+
 # Jekyll-Bootstrap
 
 The quickest way to start and publish your Jekyll powered blog. 100% compatible with GitHub pages

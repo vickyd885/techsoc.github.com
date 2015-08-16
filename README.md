@@ -4,16 +4,30 @@ Jekyll is essentially a parsing engine, not a CMS. but it's better. Read the "Je
 
 To edit **styles**: got to `assets/themes/techsoc/css/style.css`, NOT `_site/assets.../style.css`, this is where the site is stored after parsing.
 
-To edit **HTML**: it's `_includes/themes/techsoc/default.html`. Editing here changes all pages, thank da Lord.
+To edit **HTML**: it's `_includes/themes/techsoc/`. `default.html` for all general html, `page.html` for content of pages, and `post.html` for content of posts. Editing here changes all pages/posts, thank da Lord.
+
+Branding images have been stored in `assets/themes/techsoc/images`.
+
+Note: `{{ ASSET_PATH }}` refers to `assets/themes/THEME_NAME`, so don't add that in again please, but straight to the subfile of `techsoc`.
 
 
-## Installing Jekyll and Running the Site
+## Installing Jekyll and Running the Site Locally
 
 Make sure you only have one version of ruby. You also need [RVM](https://rvm.io/rvm/install) and [Rubygems](https://rubygems.org/pages/download).
 
 Use Rubygems to install jekyll: `gem install jekyll`, you can do this in your home directory.
 
 cd to your GitHub folder, and go `jekyll serve` to see it hosted locally. Yes, you can change the code at the same time.
+
+
+### Plug-ins
+
+Other than [bootstrap](http://getbootstrap.com/components/), I've plugged in [jQuery](http://api.jquery.com/). Consider [d3.js](http://d3js.org/).
+
+
+#### Analytics & Comments
+
+Analytics & comments have been installed and can be configured in configs `_config.yml`.
 
 
 # Jekyll-Bootstrap

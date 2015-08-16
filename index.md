@@ -1,7 +1,7 @@
 ---
 layout: page
 title: UCLU Technology Society
-tagline: Supporting tagline
+tagline: Welcome to the Future
 ---
 {% include JB/setup %}
 

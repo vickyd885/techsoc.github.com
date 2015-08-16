@@ -7,7 +7,7 @@ To edit **styles**: got to `assets/themes/techsoc/css/style.css`, NOT `_site/ass
 To edit **HTML**: it's `_includes/themes/techsoc/default.html`. Editing here changes all pages, thank da Lord.
 
 
-## Installing Jekyll
+## Installing Jekyll and Running the Site
 
 Make sure you only have one version of ruby. You also need [RVM](https://rvm.io/rvm/install) and [Rubygems](https://rubygems.org/pages/download).
 

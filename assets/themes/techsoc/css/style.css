@@ -19,9 +19,7 @@
   font-family: 'Karla', sans-serif;
   box-sizing: border-box;
 }
-body{
-  padding-top: 10%;
-}
+
 h1, h2, h3, h4 {
   color: #0E152F;
   text-align: center;
@@ -39,6 +37,10 @@ h1, h2, h3, h4 {
   color: #FFF;
   font-size: 18px;
 }
+.navbar a:hover{
+  color: #0E152F;
+  font-size: 18px;
+}
 .navbar-header {
   float: left;
   /*padding: 15px;*/
@@ -48,6 +50,7 @@ h1, h2, h3, h4 {
 .navbar-brand {
   float: none;
 }
+
 #brand {
   width: 10%;
   position: fixed;
@@ -56,13 +59,61 @@ h1, h2, h3, h4 {
   padding: 1.2%;
   background-color: #0E152F;
   border-radius: 50%;
+  z-index: 1000;
 }
+#brand:hover {
+  background-color: #637CDB;
+}
+
 .navbar-nav {
   width: 100%;
+  z-index: -1; /* make navbar things behind the brand-logo */
+}
+
+.navbar-nav li a {
+  border-radius: 10%;
+}
+
+/* place dropdown behind brand-logo and make it same width as navbar links */
+.dropdown-menu {
+  /*padding-right: 15px; */
+  z-index: -1;
+  width: 90%;
 }
 
 
-/* circle in border */
+/* styles for index feature */
+#feature {
+  background: url("../images/UCL.png");
+  background-size: cover;
+  background-position: 50% 20%;
+  background-repeat: no-repeat;
+  color: #F4F4F4;
+  padding: 20px;
+  margin: none;
+  width: 100%;
+}
+#feature h1 {
+  padding-top: 10%;
+  color: #F6F6F6;
+}
+#feature ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px;
+}
+
+/* styles for page body, mainly add a top padding so it's not blocked by nav-bar */
+.page-body {
+  padding-top: 10%;
+}
+
+/* padding for index body */
+.main-body {
+  padding-top: 10px;
+}
+
+/* circle in h2 border */
 #circle {
   float: left;
   border: 2px solid #000;  

@@ -1,0 +1,33 @@
+---
+layout: page
+title: UCLU TechSoc - Events 
+header: Events
+group: navigation
+---
+{% include JB/setup %}
+
+<div>
+	<h2>Team</h2>
+
+</div>
+
+
+<div>
+	<h2>Sponsors</h2>
+
+</div>
+
+
+<div class="col-md-6 col-lg-6">
+	<h2>All Pages</h2>
+	<ul>
+	{% assign pages_list = site.pages %}
+	{% include JB/pages_list %}
+	</ul>
+</div>
+
+<div class="col-md-6 col-lg-6">
+	<h2>Archive</h2>
+	{% assign posts_collate = site.posts %}
+	{% include JB/posts_collate %}
+</div>

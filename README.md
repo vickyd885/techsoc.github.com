@@ -2,9 +2,22 @@
 
 Jekyll is essentially a parsing engine, not a CMS. but it's better. Read the "Jekyll Introduction" on the home page, you'll find it under "Sample Posts" when you're running the site locally
 
-To edit **styles**: got to `assets/themes/techsoc/css/style.css`, NOT `_site/assets.../style.css`, this is where the site is stored after parsing.
+To edit **styles**: got to `assets/themes/techsoc/css/style.css`, NOT `_site/assets.../style.css`, this is where the site is stored after parsing. JS is under `assets/themes/techsoc/js`.
 
 To edit **HTML**: it's `_includes/themes/techsoc/`. `default.html` for all general html, `page.html` for content of pages, and `post.html` for content of posts. Editing here changes all pages/posts, thank da Lord.
+
+If you want to define a new page style, create it in `_includes/themes/techsoc/`, and make sure you have settings configured in '_layouts/' with the same name. E.g. `_includes/themes/techsoc/main.html` is defined by '_layouts/main.html'. Settings should look like this:
+'''
+---
+theme :
+  name : techsoc
+layout: default
+---
+{% include JB/setup %}
+{% include themes/techsoc/main.html %}
+
+'''
+
 
 Branding images have been stored in `assets/themes/techsoc/images`.
 

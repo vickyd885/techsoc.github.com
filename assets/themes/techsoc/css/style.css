@@ -139,6 +139,11 @@ hr {
   width: 95%;
 }*/
 
+.intro-text {
+/*  width: 80%;*/
+  padding: 0 20%;
+}
+
 
 /* posts index */
 .post > h3.title {

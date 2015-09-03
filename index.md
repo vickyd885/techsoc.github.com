@@ -13,21 +13,28 @@ tagline: Connect. Create. Collaborate.
 		<p>
 			Shorter version of <a href="about.html">about</a> page.
 		</p>
+	<div class="col-md-4 col-sm-4 col-lg-4">
 		<h3>An Accessible Network</h3>
 		<p>	
 			something
 		</p>
+	</div>
+	<div class="col-md-4 col-sm-4 col-lg-4">
 		<h3>A Platform for Encouragement</h3>
 		<p>
 			something
 		</p>
-		<h3>A (something about diversity)</h3>
+	</div>
+	<div class="col-md-4 col-sm-4 col-lg-4">
+		<h3>We Bridge the Gap</h3>
 		<p>
-			In line with our goals to make the tech industry accessible to students with diverse backgrounds, we make a conscious effort to collaborate with other societies to raise awareness of the vast range of opportunities available to them.
+			something
 		</p>
+	</div>
 </div>
 
 
+#
 
 
 ## Jekyll How to & Sample Posts

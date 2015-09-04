@@ -1,4 +1,13 @@
 // main JS page
+$(document).ready(
+	function(){
+		console.log("I <3 TechSoc");
+		SupportKit.init({
+			appToken: 'bduztoii0oqw4werjrkqk3lcr',
+			givenName: 'rando'
+		});
+});
+
 $('h2').after('<div id="circle"></div><hr/>');
 
 $('.navbar-toggle').hover(

@@ -1,6 +1,6 @@
 ---
 layout: main
-title: UCLU TechSoc
+title: Home
 header: UCLU Technology Society
 tagline: Connect. Create. Collaborate.
 ---
@@ -10,7 +10,10 @@ tagline: Connect. Create. Collaborate.
 
 <div class="text-center">
 	<h2>Tech is the New Black</h2>
-		<h3>We live in a wonderful, digital world.</h3>
+		<h4>We live in a wonderful, digital world.</h4>
+		<p>
+			Post <a href="/blog/2015/09/04/tech-is-the-new-black/">here</a>.
+		</p>
 </div>
 <div class="intro-text text-center">
 	<p>

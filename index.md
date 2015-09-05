@@ -25,7 +25,7 @@ tagline: Connect. Create. Collaborate.
 			We care deeply about technology, and we think you should too.
 			<br>
 			<br>
-			<a href="/blog/2015/09/04/tech-is-the-new-black/">Let us open your mind to the digital sphere of life</a>. (Will make this into a fancy button.)
+			<a href="/blog/2015/09/04/tech-is-the-new-black/">Let us open your mind to the digital sphere of life</a>. (Will make this into a fancy button)
 		</p>
 		<p>
 			Tech is simple. Tech is accessible. Tech is empowering. 

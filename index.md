@@ -9,7 +9,7 @@ tagline: Connect. Create. Collaborate.
 
 
 <div class="text-center">
-	<h2>Tech is the New Black</h2>
+	<h2><a href="/blog/2015/09/04/tech-is-the-new-black/" style="color: #0E152F;">Tech is the New Black</a></h2>
 </div>
 <div class="col-md-8 col-xs-12">
 		<h4>We live in a wonderful, digital world.</h4>
@@ -25,19 +25,18 @@ tagline: Connect. Create. Collaborate.
 			We care deeply about technology, and we think you should too.
 			<br>
 			<br>
-			<a href="/blog/2015/09/04/tech-is-the-new-black/">Let us open your mind to the digital sphere of life</a>. (Will make this into a fancy button)
-		</p>
-		<p>
 			Tech is simple. Tech is accessible. Tech is empowering. 
 			<br>
-			Don't just <em>try</em> to innovate, <strong>build</strong> the future.
 			<br>
+			<div class="btn-group btn-group-lg" role="group" aria-label="Click">
+				<button type="button" class="btn btn-default"><a href="/blog/2015/09/04/tech-is-the-new-black/" style="color: #0E152F;">Don't just <em>try</em> to innovate, <strong>build</strong> the future.</a></button>
+			</div>
 		</p>
 	</div>
 </div>
 <div class="col-md-4 col-xs-12" id="feature-vid">
 	<p class="text-center">
-		The winning hack at last year's <a href="http://hacklondon.org" target="_blank">HackLondon</a>, by some of our members.
+		The winning hack at last year's <a href="http://hacklondon.org" target="_blank">HackLondon</a>, by a group of our members.
 	</p>
 	<div class="video-wrapper">
 		<iframe width="560" height="315" src="https://www.youtube.com/embed/KuDBV92Z0rw?rel=0" frameborder="0" allowfullscreen></iframe>
@@ -45,24 +44,24 @@ tagline: Connect. Create. Collaborate.
 </div>
 			
 		
-<div class="col-md-12 text-center">
-	<h2>What is <a href="about.html">TechSoc</a>?</h2>
+<div class="col-md-12 text-center btn-group" role="group" aria-label="Toggle">
+	<h2><a href="about.html" style="color: #0E152F;">What is TechSoc?</a></h2>
 	<div class="col-md-4 col-sm-4 col-lg-4">
 		<h3>An Accessible Network</h3>
 		<p>	
-			something
+			<a tabindex="0" class="btn btn-lg btn-link" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="An Accessible Network" data-content="And here's some amazing content. It's very engaging. Right?"><i class="fa fa-users fa-5x"></i></a>
 		</p>
 	</div>
 	<div class="col-md-4 col-sm-4 col-lg-4">
 		<h3>A Platform for Encouragement</h3>
 		<p>
-			something
+			<a tabindex="0" class="btn btn-lg btn-link" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="A Platform for Encouragement" data-content="And here's some amazing content. It's very engaging. Right?"><i class="fa fa-thumbs-o-up fa-5x"></i></a>
 		</p>
 	</div>
 	<div class="col-md-4 col-sm-4 col-lg-4">
 		<h3>We Bridge the Gap</h3>
 		<p>
-			something
+			<a tabindex="0" class="btn btn-lg btn-link" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="We Bridge the Gap" data-content="And here's some amazing content. It's very engaging. Right?"><i class="fa fa-link fa-5x"></i></a>
 		</p>
 	</div>
 </div>

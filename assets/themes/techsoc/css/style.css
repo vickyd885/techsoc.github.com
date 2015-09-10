@@ -87,6 +87,20 @@ h1, h2, h3, h4 {
   color: #FFF;
 }
 
+/* Typer styles */
+.type-wrapper {
+  margin: 30px 50px 10px 50px;
+  padding: 20px 0;
+  color: #F0F0F0;
+  background-color: rgba(204,204,204,0.2);
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+#type-space {
+  font-size: 30px;
+}
+
 
 /* styles for index feature */
 #feature {

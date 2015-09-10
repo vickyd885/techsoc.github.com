@@ -204,8 +204,11 @@ hr {
 
 /* post-full*/
 .post-full .date {
-  margin-bottom: 20px;
   font-weight: bold; }
+
+.post-full .author {
+  margin-bottom: 20px;
+}
 
 /* tag_box */
 .tag_box {

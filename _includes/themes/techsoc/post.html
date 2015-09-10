@@ -8,6 +8,9 @@
       <div class="date">
         <span>{{ page.date | date_to_long_string }}</span>
       </div>
+      <div class="author">
+        By <a href="{{ page.creds }}" target="_blank">{{ page.author }}</a>
+      </div>
       <div class="content">
         {{ content }}
       </div>

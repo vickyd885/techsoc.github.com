@@ -292,7 +292,8 @@ hr {
   font-family: inherit;
   font-size: 6rem;
   display: inline-table;
-  margin-top: 50px; }
+  margin-top: 50px;
+  }
 
 .project-category{
   display: inline;
@@ -302,7 +303,8 @@ hr {
 .project-text{
   font-family: inherit;
   font-size: 1.8rem;
-  text-align: center; }
+  text-align: center;
+   padding: 14px; }
 
 .project-leaders{
   display: -webkit-box;
@@ -311,4 +313,103 @@ hr {
 .project-leaders-img{
   display: inline-block;
   margin-left: 12px; }
-  
+
+.hackblog-name{
+  font-size: 3rem;
+  margin-top: -40px;
+  text-align: center;
+  display: inline-block;
+}
+
+.hackblog-textbody{
+  font-size: 1rem;
+  text-align: center;
+}
+
+.hackblog-container{
+  display: inline-block;
+  border: #DCDCDC;;
+  border-style: solid;
+  margin-left: -6px;
+}
+
+.hackblog-logo{ 
+  margin:10px; 
+  height:100px;
+  width:100px;
+}
+
+.hackblog-featured-tagline{
+  margin-left: 105px;
+  font-family: inherit;
+  font-size: 2rem;
+  display: inline;
+
+}
+
+.hackblog-featured{
+  display:block;
+}
+
+.hackblog-featured-title{
+  margin-top: 0px;
+  text-align: center;
+  display: inline;
+  margin-left: 105px;
+}
+
+.hackblog-cat{
+  display:inline;
+  margin-left: 105px;
+}
+
+.dropdown-container{
+  background-color: #eee;
+  width: 100%;
+}
+
+.dropdown-adjust{
+  margin-left: 75px;
+}
+
+.github-logo{
+  display: inline-block;
+  height: 35px;
+  width: 35px;
+  background: url(/assets/themes/techsoc/images/GitHub-Mark-64px.png) no-repeat; 
+  background-size: cover;
+  margin-left:29%;
+}
+
+.github-text{
+  font-family: inherit;
+  font-size: 1.9rem;
+}
+
+.github-container{
+    width: 100%;
+    background-color: #EAEAEA;
+    padding: 3px;
+}
+
+.hackblog-faces{
+  margin-left: 0px;
+}
+
+.hackblog-header{
+  background-color: #A2A2A2;
+  width: 100%;
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+
+.hackblog-text{
+  font-family: inherit;
+  font-size:3rem;
+  padding: 10px;
+  text-align: center;
+}
+
+.git-featured{
+  margin-left: 39%;
+}

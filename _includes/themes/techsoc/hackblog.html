@@ -1,0 +1,40 @@
+<div class="hackblog-container hackblog-featured" style="padding:0px;">
+  <div class="hackblog-header">
+    <div class="single-circular hackblog-logo" style="background: url({{page.logo}}) no-repeat; background-size: cover;">
+     <div class="hackblog-name hackblog-featured-title"> 
+      {{page.name}}
+     </div>
+     <div class="hackblog-cat">
+    // {{page.type}}
+     </div>
+     <div class="hackblog-featured-tagline">
+   {{page.tagline}}
+     </div>
+  </div>
+</div>
+ <div class="hackblog-text">
+      {{page.content}}
+  </div>
+       <div class="project-leaders hackblog-faces">
+        <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 single-circular  project-leaders-img" style="background: url({{page.pic1}}) no-repeat; height:50px; width:50px; box-shadow=0; background-size:cover;">
+      </div>
+
+    <div class="project-text">
+    {{page.contributer_one}}  <br>
+    </div>
+
+<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 single-circular  project-leaders-img" style="background: url({{page.pic2}}) no-repeat; height:50px; width:50px; box-shadow=0; background-size:cover;">
+</div>
+    <div class="project-text" >
+      {{page.contributer_two}}
+    </div>
+</div>
+  <div class="github-container">
+    <a class="github-text" href="{{hack.github_link}}">
+      <div class="single-circular github-logo" >
+      </div>
+      Check it out on GitHub
+    </a>
+  </div>
+</div>
+
